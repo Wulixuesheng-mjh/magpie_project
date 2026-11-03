@@ -1,0 +1,35 @@
+{
+  "repository": "https://github.com/yetone/magpie",
+  "commit": "6a6e4fefac9261db4e1eeb769665a21ebaefbd12",
+  "retrieved_on": "2026-11-03",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "f5bcea666e731c57484a8502ec8d9d7b3695a9a7b3a3236c89e5d3ed9d4b176f"
+    },
+    {
+      "path": "internal/gateway/classify.go",
+      "sha256": "2a83b9408584585268e4909bd8eace0a118417df489cbaa9a73cb54b408a90e8"
+    },
+    {
+      "path": "internal/gateway/decide.go",
+      "sha256": "990fe41194a9226d5a2739fe4715773f19ed19e26aaf2eed3677a34e2b49b1df"
+    },
+    {
+      "path": "internal/gateway/rules.go",
+      "sha256": "d10fd1b3e5daa435fd0f4fe87cfb1b27fb1bb79d5eb3b2b9f2e54c03a936ce38"
+    },
+    {
+      "path": "internal/provider/group.go",
+      "sha256": "d5421d8a88ffd644d48725d5bae254c44d03f03a4ee62aef77892be4acbee87f"
+    },
+    {
+      "path": "docs/subsystems/gateway-routing.md",
+      "sha256": "401034773af0df025b0a76758ac95ddddd33964bc62408938cd47662a26f853b"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "79d2c8444715d4bc453ec4f8a0aaf2051a4c1ee5ac08f5bd2e5848aef87c7572"
+    }
+  ]
+}

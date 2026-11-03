@@ -1,0 +1,48 @@
+{
+  "fetched_at_utc": "2026-11-03T01:18:30.338968+00:00",
+  "status": "unreviewed_candidates_not_formal_data",
+  "n": 60,
+  "sources": [
+    {
+      "repository": "yetone/magpie",
+      "endpoint": "https://api.github.com/repos/yetone/magpie/issues?state=all&per_page=100&sort=created&direction=desc",
+      "snapshot": "yetone__magpie.json",
+      "sha256": "3e1c613902022a532fcf9340ff41a4b1d3d242b2c7ebeeacb8113a8a2eb0a01b",
+      "n": 20
+    },
+    {
+      "repository": "pytest-dev/pytest",
+      "endpoint": "https://api.github.com/repos/pytest-dev/pytest/issues?state=all&per_page=100&sort=created&direction=desc",
+      "snapshot": "pytest-dev__pytest.json",
+      "sha256": "79d3114926a85255ac3d972c453a1b5ee1a4f7944de12f989dc66865ec9228c0",
+      "n": 10
+    },
+    {
+      "repository": "fastapi/fastapi",
+      "endpoint": "https://api.github.com/repos/fastapi/fastapi/issues?state=all&per_page=100&sort=created&direction=desc",
+      "snapshot": "fastapi__fastapi.json",
+      "sha256": "08deb74a508dd988a9efb096519f78249837b9c56509f048713a93e8c74463eb",
+      "supplement": {
+        "endpoint": "https://api.github.com/search/issues?q=repo:fastapi/fastapi+is:issue&per_page=100&sort=created&order=desc",
+        "snapshot": "fastapi__fastapi__issues_search.json",
+        "sha256": "0bfda43315063edf3dc6e9fdebb736d2b2401b64ba694981e1a2ddc940cb09ef"
+      },
+      "n": 10
+    },
+    {
+      "repository": "psf/requests",
+      "endpoint": "https://api.github.com/repos/psf/requests/issues?state=all&per_page=100&sort=created&direction=desc",
+      "snapshot": "psf__requests.json",
+      "sha256": "d59c8029243975adeaac4858e042feed4f3ce1cf99ad10253af8474e96847e6f",
+      "n": 10
+    },
+    {
+      "repository": "pallets/flask",
+      "endpoint": "https://api.github.com/repos/pallets/flask/issues?state=all&per_page=100&sort=created&direction=desc",
+      "snapshot": "pallets__flask.json",
+      "sha256": "f3d6acda304837b94fa7d8a42011bef45009f341bf5be891d0833536ba2c6974",
+      "n": 10
+    }
+  ],
+  "distribution_note": "Index only; referenced raw response snapshots remain local and are not published."
+}

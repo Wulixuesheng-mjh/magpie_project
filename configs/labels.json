@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "labels": [
+    {"id": "explain", "description": "解释现有代码、程序行为或设计，不要求修改代码"},
+    {"id": "debug_fix", "description": "诊断或修复现有程序的错误和不符合预期的行为"},
+    {"id": "test", "description": "新增、修改或修复测试代码，主要交付物是测试"},
+    {"id": "feature", "description": "增加新的功能或新的程序行为"},
+    {"id": "refactor", "description": "保持主要功能，调整结构、可维护性或性能"},
+    {"id": "other", "description": "不属于上述任务的请求"}
+  ]
+}

@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+upstream/
+data/private/
+outputs/
+models/
+.env

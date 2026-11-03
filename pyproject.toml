@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magpie-intent-study"
+version = "0.1.0"
+description = "Reproducible intent classification research for Magpie"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+models = ["torch>=2.2", "transformers>=4.51,<5", "sentence-transformers>=3,<6", "numpy>=1.26"]
+
+[project.scripts]
+intent-study = "intent_study.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,9 @@
+{
+  "seed": 42,
+  "split_ratios": [0.6, 0.2, 0.2],
+  "bert": {"model": "google-bert/bert-base-multilingual-cased", "revision": null, "max_length": 512, "head_learning_rates": [0.001, 0.0003], "encoder_learning_rates": [0.00002, 0.00005], "seeds": [17, 42, 2026]},
+  "chat": {"model": "Qwen/Qwen3-1.7B", "revision": null, "thinking": false, "timeout_seconds": 8, "max_tokens": 2048},
+  "vector": {"model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", "revision": null, "mode": "description"},
+  "jev": {"model": null, "endpoint": null, "timeout_seconds": 8},
+  "status": "design_only: model revisions and resources must be recorded before formal runs"
+}
